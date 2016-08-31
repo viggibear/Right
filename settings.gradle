@@ -1,0 +1,2 @@
+include ':app', ':richeditor'
+project(':richeditor').projectDir = new File('libs/RichEditor/richeditor')

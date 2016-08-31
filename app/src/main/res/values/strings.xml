@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Right</string>
+    <string name="right_folder">right_folder_id</string>
+    <string name="demo_text">Right is a writing app that streamlines your flow of writing for mobile, whether for taking notes, writing essays or even composing blog posts. It has 3 modes: Writing, refining and Formatting. You can switch interchangeably with the click of a button. Text editors are cumbersome and difficult to use and do not fully use the capabilities of smartphones. Often, typing and formatting text requires manual text selection.</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save">Save</string>
+    <string name="document_title">Title</string>
+    <string name="title_hint">Insert Document Title</string>
+    <string name="action_review">Read</string>
+</resources>
