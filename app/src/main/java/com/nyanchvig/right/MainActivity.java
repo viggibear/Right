@@ -493,7 +493,13 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     public void proofRead(){
         mEditor.removeHighlights();
         String htmlText = mEditor.getHtml();
-        String text = Jsoup.parse(htmlText).text();
+        String text;
+        try{
+            text = Jsoup.parse(htmlText).text();
+
+        } catch (IllegalArgumentException e){
+            return;
+        }
         String[] textList = text.split("\\s+");
         Map<String, Integer> map = new HashMap<>();
         for (String w : textList) {
